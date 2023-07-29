@@ -21,4 +21,5 @@ always @(*)
 begin
     Q_next = done? 'b0: Q_reg +1;
 end
+assign Q = Q_reg;
 endmodule
